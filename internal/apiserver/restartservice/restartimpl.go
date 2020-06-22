@@ -18,11 +18,11 @@ limitations under the License.
 import (
 	"fmt"
 
-	"github.com/crunchydata/postgres-operator/internal/apiserver"
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/patroni"
-	"github.com/crunchydata/postgres-operator/internal/util"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/internal/apiserver"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/patroni"
+	"github.com/crunchydata/postgres-operator/v4/internal/util"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

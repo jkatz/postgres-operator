@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/crunchydata/postgres-operator/pgo/cmd"
+	"github.com/crunchydata/postgres-operator/v4/pgo/cmd"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra/doc"
 	"path"

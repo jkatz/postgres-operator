@@ -18,7 +18,7 @@ package apiservermsgs
 import (
 	"testing"
 
-	pgpassword "github.com/crunchydata/postgres-operator/internal/postgres/password"
+	pgpassword "github.com/crunchydata/postgres-operator/v4/internal/postgres/password"
 )
 
 func TestGetPasswordType(t *testing.T) {

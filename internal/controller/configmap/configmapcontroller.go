@@ -16,9 +16,9 @@ limitations under the License.
 */
 
 import (
-	"github.com/crunchydata/postgres-operator/internal/config"
-	pgoinformers "github.com/crunchydata/postgres-operator/pkg/generated/informers/externalversions/crunchydata.com/v1"
-	pgolisters "github.com/crunchydata/postgres-operator/pkg/generated/listers/crunchydata.com/v1"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	pgoinformers "github.com/crunchydata/postgres-operator/v4/pkg/generated/informers/externalversions/crunchydata.com/v1"
+	pgolisters "github.com/crunchydata/postgres-operator/v4/pkg/generated/listers/crunchydata.com/v1"
 
 	log "github.com/sirupsen/logrus"
 

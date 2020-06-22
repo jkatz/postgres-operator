@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
 
 	v1 "k8s.io/api/core/v1"
 )

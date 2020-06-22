@@ -17,7 +17,7 @@ limitations under the License.
 
 import (
 	"encoding/json"
-	"github.com/crunchydata/postgres-operator/internal/apiserver"
+	"github.com/crunchydata/postgres-operator/v4/internal/apiserver"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 )

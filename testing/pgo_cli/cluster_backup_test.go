@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/testing/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/testing/kubeapi"
 	"github.com/stretchr/testify/require"
 )
 

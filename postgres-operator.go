@@ -20,15 +20,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/kubernetes/sample-controller/pkg/signals"
+	"k8s.io/sample-controller/pkg/signals"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/controller"
-	"github.com/crunchydata/postgres-operator/internal/controller/manager"
-	nscontroller "github.com/crunchydata/postgres-operator/internal/controller/namespace"
-	crunchylog "github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/ns"
-	"github.com/crunchydata/postgres-operator/internal/operator/operatorupgrade"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/controller"
+	"github.com/crunchydata/postgres-operator/v4/internal/controller/manager"
+	nscontroller "github.com/crunchydata/postgres-operator/v4/internal/controller/namespace"
+	crunchylog "github.com/crunchydata/postgres-operator/v4/internal/logging"
+	"github.com/crunchydata/postgres-operator/v4/internal/ns"
+	"github.com/crunchydata/postgres-operator/v4/internal/operator/operatorupgrade"
 	log "github.com/sirupsen/logrus"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -36,8 +36,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	"github.com/crunchydata/postgres-operator/internal/operator"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/internal/operator"
 )
 
 func main() {

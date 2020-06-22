@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
 )
 
 // dbContainerName is the name of the container containing the PG database in a PG (primary or

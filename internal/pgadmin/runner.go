@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
 
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"

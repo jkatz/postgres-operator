@@ -18,11 +18,11 @@ limitations under the License.
 import (
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	clusteroperator "github.com/crunchydata/postgres-operator/internal/operator/cluster"
-	crv1 "github.com/crunchydata/postgres-operator/pkg/apis/crunchydata.com/v1"
-	informers "github.com/crunchydata/postgres-operator/pkg/generated/informers/externalversions/crunchydata.com/v1"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	clusteroperator "github.com/crunchydata/postgres-operator/v4/internal/operator/cluster"
+	crv1 "github.com/crunchydata/postgres-operator/v4/pkg/apis/crunchydata.com/v1"
+	informers "github.com/crunchydata/postgres-operator/v4/pkg/generated/informers/externalversions/crunchydata.com/v1"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

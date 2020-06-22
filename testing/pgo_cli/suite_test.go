@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/testing/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/testing/kubeapi"
 )
 
 func TestMain(m *testing.M) {

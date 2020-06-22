@@ -22,10 +22,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/internal/apiserver"
+	"github.com/crunchydata/postgres-operator/v4/internal/apiserver"
 	log "github.com/sirupsen/logrus"
 
-	cv2 "github.com/robfig/cron"
+	cv2 "github.com/robfig/cron/v3"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/kubernetes"
 )

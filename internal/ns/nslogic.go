@@ -26,9 +26,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	"github.com/crunchydata/postgres-operator/pkg/events"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/pkg/events"
 
 	log "github.com/sirupsen/logrus"
 	authorizationapi "k8s.io/api/authorization/v1"

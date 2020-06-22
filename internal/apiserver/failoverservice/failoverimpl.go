@@ -18,12 +18,12 @@ limitations under the License.
 import (
 	"errors"
 
-	"github.com/crunchydata/postgres-operator/internal/apiserver"
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	"github.com/crunchydata/postgres-operator/internal/util"
-	crv1 "github.com/crunchydata/postgres-operator/pkg/apis/crunchydata.com/v1"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/internal/apiserver"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/internal/util"
+	crv1 "github.com/crunchydata/postgres-operator/v4/pkg/apis/crunchydata.com/v1"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/api/apps/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

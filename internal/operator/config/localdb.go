@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	"github.com/crunchydata/postgres-operator/internal/util"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/internal/util"
 
 	log "github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"

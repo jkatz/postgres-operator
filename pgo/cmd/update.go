@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crunchydata/postgres-operator/pgo/util"
+	"github.com/crunchydata/postgres-operator/v4/pgo/util"
 	"github.com/spf13/cobra"
 )
 

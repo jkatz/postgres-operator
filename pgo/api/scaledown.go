@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 )
 

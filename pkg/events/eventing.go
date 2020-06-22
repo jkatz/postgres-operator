@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	crunchylog "github.com/crunchydata/postgres-operator/internal/logging"
+	crunchylog "github.com/crunchydata/postgres-operator/v4/internal/logging"
 	"github.com/nsqio/go-nsq"
 	log "github.com/sirupsen/logrus"
 	"os"

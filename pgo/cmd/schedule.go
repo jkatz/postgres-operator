@@ -21,11 +21,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/pgo-scheduler/scheduler"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/pgo-scheduler/scheduler"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/crunchydata/postgres-operator/pgo/api"
+	"github.com/crunchydata/postgres-operator/v4/pgo/api"
 )
 
 type schedule struct {

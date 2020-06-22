@@ -21,9 +21,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/ns"
-	crv1 "github.com/crunchydata/postgres-operator/pkg/apis/crunchydata.com/v1"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/ns"
+	crv1 "github.com/crunchydata/postgres-operator/v4/pkg/apis/crunchydata.com/v1"
 	log "github.com/sirupsen/logrus"
 
 	v1 "k8s.io/api/core/v1"

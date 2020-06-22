@@ -23,9 +23,9 @@ import (
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	cfg "github.com/crunchydata/postgres-operator/internal/operator/config"
-	crv1 "github.com/crunchydata/postgres-operator/pkg/apis/crunchydata.com/v1"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	cfg "github.com/crunchydata/postgres-operator/v4/internal/operator/config"
+	crv1 "github.com/crunchydata/postgres-operator/v4/pkg/apis/crunchydata.com/v1"
 )
 
 // handleConfigMapSync is responsible for syncing a configMap resource that has obtained from

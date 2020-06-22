@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/util"
-	"github.com/crunchydata/postgres-operator/pgo/api"
-	pgoutil "github.com/crunchydata/postgres-operator/pgo/util"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/internal/config"
+	"github.com/crunchydata/postgres-operator/v4/internal/util"
+	"github.com/crunchydata/postgres-operator/v4/pgo/api"
+	pgoutil "github.com/crunchydata/postgres-operator/v4/pgo/util"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

@@ -20,9 +20,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/pgo/api"
-	"github.com/crunchydata/postgres-operator/pgo/util"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/pgo/api"
+	"github.com/crunchydata/postgres-operator/v4/pgo/util"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 )
 
 // showPgBouncerTextPadding contains the values for what the text padding should be

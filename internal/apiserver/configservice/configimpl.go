@@ -16,8 +16,8 @@ limitations under the License.
 */
 
 import (
-	"github.com/crunchydata/postgres-operator/internal/apiserver"
-	msgs "github.com/crunchydata/postgres-operator/pkg/apiservermsgs"
+	"github.com/crunchydata/postgres-operator/v4/internal/apiserver"
+	msgs "github.com/crunchydata/postgres-operator/v4/pkg/apiservermsgs"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crunchydata/postgres-operator/testing/kubeapi"
+	"github.com/crunchydata/postgres-operator/v4/testing/kubeapi"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

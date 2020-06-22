@@ -19,9 +19,9 @@ import (
 	"flag"
 	"os"
 
-	"github.com/crunchydata/postgres-operator/internal/kubeapi"
-	crunchylog "github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/pgo-rmdata/rmdata"
+	"github.com/crunchydata/postgres-operator/v4/internal/kubeapi"
+	crunchylog "github.com/crunchydata/postgres-operator/v4/internal/logging"
+	"github.com/crunchydata/postgres-operator/v4/pgo-rmdata/rmdata"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/client-go/kubernetes"
 )
