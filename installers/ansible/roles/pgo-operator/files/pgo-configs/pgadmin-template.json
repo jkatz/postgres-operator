@@ -42,6 +42,9 @@
         },
         "containers": [{
           "name": "pgadminweb",
+          "securityContext": {
+            "readOnlyRootFilesystem": true
+          },
           "image": "{{.CCPImagePrefix}}/crunchy-pgadmin4:{{.CCPImageTag}}",
           "securityContext": {
             "allowPrivilegeEscalation": false
@@ -58,12 +61,32 @@
             "value": "{{.InitPass}}"
           }],
           "volumeMounts": [{
+              "name": "tmp",
+              "mountPath": "/tmp"
+            },
+            {
+              "name": "pgadmin-log",
+              "mountPath": "/var/log/pgadmin"
+            },
+            {
             "name": "pgadmin-datadir",
             "mountPath": "/var/lib/pgadmin",
             "readOnly": false
           }]
         }],
         "volumes": [{
+            "name": "tmp",
+            "emptyDir": {
+              "medium": "Memory"
+            }
+          },
+          {
+            "name": "pgadmin-log",
+            "emptyDir": {
+              "medium": "Memory"
+            }
+          },
+          {
           "name": "pgadmin-datadir",
           "persistentVolumeClaim": {
             "claimName": "{{.PVCName}}"
